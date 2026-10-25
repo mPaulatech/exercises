@@ -1,0 +1,38 @@
+### Exercício 1: Filtrar e Mapear Produtos 🛒
+
+Dado o array abaixo:
+
+```javascript
+const produtos = [
+  { nome: 'Teclado', preco: 150, emEstoque: true },
+  { nome: 'Mouse', preco: 80, emEstoque: false },
+  { nome: 'Monitor', preco: 900, emEstoque: true }
+];
+
+```
+
+Crie uma função `produtosDisponiveis(lista)` que use métodos de array (`filter` e `map`) para retornar um array contendo apenas os **nomes** dos produtos que estão em estoque (`emEstoque === true`).
+
+---
+
+### Exercício 2: Atualização com Spread e Desestruturação 📦
+
+Crie uma função `atualizarPerfil(usuario, novosDados)` que recebe dois objetos:
+
+```javascript
+const usuario = { nome: 'Ana', idade: 25, cidade: 'São Paulo' };
+const novosDados = { idade: 26, cidade: 'Rio de Janeiro' };
+
+```
+
+A função deve usar o operador **spread** (`...`) para retornar um **novo objeto** combinado, contendo todas as propriedades atualizadas e uma nova propriedade `atualizado: true`.
+
+---
+
+### Exercício 3: Requisição Assíncrona 🌐
+
+Crie uma função assíncrona `buscarUsuario(id)` que faça uma busca na API pública `[https://jsonplaceholder.typicode.com/users/1](https://jsonplaceholder.typicode.com/users/1)` usando `fetch` com `async/await`. A função deve desestruturar o objeto retornado e exibir no console apenas o `name` e o `email`.
+
+---
+
+Por qual desses exercícios você gostaria de começar? Pode mandar a sua tentativa em código para analisarmos!
